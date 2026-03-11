@@ -1,0 +1,2 @@
+git _ check if git is installed inth laptop.see git help -a
+git init-makes the folder to start using git.done only once
