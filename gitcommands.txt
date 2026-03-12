@@ -1,2 +1,4 @@
 git _ check if git is installed inth laptop.see git help -a
 git init-makes the folder to start using git.done only once
+git adds = adds all files ninthe folder to be tracked by git
+git commit -m "first commit" = adds message to your commmit message
