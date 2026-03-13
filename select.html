@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><select</title>
+</head>
+<body>
+    <form action="">
+        <label for="fruits">Choose a fruit:</label><br>
+        <select id="fruits" name="fruits" multiple>
+            <option value="banana">Banana</option>
+            <option value="apple">Apple</option>
+            <option value="cherry">cherry</option>
+            <option value="orange" selected>Orange</option>
+        </select>
+        <select id="frameworks" name="frameworks" >
+            <optgroup label="Frontend">
+                <option value="react">React</option>
+                <option value="vue">Vue.js</option>
+                <option value="angular">Angular</option>
+                <option value="bootstrap">Bootstrap</option>
+            </optgroup>
+            <optgroup label="Backend">
+                <option value="flask">Flask</option>
+                <option value="fastapi">FastAPI</option>
+                <option value="django">Django</option>
+                <option value="laravel">Laravel</option>
+            </optgroup>
+        </select>
+    </form>
+</body>
+</html>
